@@ -5,7 +5,7 @@ Mastering bitcoin by Andreas M. Antonopoulos and https://developer.bitcoin.org/r
 ## How to run
 It was tested using several virtual ubuntu servers.
 
-In Fullnode.py, change initIp to the first running server. The first running server also has to include a single arbitary argument (python3 Fullnode.py "anything". Then start the next full node without argument. All nodes have to start before any node have mined a block. 
+In Fullnode.py, change initIp to the server which will run the first full node. The first full node also has to include a single arbitary argument (python3 Fullnode.py "anything". The next full nodes should not include any argument. All nodes have to start before any node have mined a block. 
 
 ## What it does
 It starts by connecting all nodes to eachother.
